@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&family=Slabo+27px&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+button {
+    border: none;
+}
+
+ul,
+li {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0px;
+    padding: 0px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+}
+
+p {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+}
+
+table,
+thead,
+tbody,
+tr,
+th,
+td {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+}
+
+hr {
+    margin: 0px;
+    padding: 0px;
+}
+
+input,
+button,
+select,
+optgroup,
+textarea {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+}
+
+a,
+strong,
+label,
+span,
+img,
+b {
+    font-family: "Roboto", sans-serif;
+    transition: all 0.3s ease 0s;
+    font-style: normal;
+}
+
+img {
+    user-select: none;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a:link {
+    outline: none;
+    text-decoration: none;
+    color: #000;
+}
+
+a.bs-btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+button.bs-btn:focus {
+    outline: 0;
+    box-shadow: none;
+}

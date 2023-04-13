@@ -1,0 +1,163 @@
+/* PC */
+@media (min-width: 64em) {
+    .header-bar {
+        display: none;
+    }
+}
+
+/* Tablet */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+    .contact-btn {
+        left: 60%;
+        width: 40%;
+    }
+}
+
+/* Mobile */
+@media (max-width: 46.1875em) {
+    #slider .text-content {
+        bottom: 10px;
+    }
+
+    #slider .text-heading {
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+
+    #slider .text-description {
+        font-size: 12px;
+    }
+
+    #nav {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: #000;
+        width: 100%;
+        /* flex-grow: 0; */
+        /* order: 2; */
+
+        display: none;
+    }
+
+    #nav .header-nav-item {
+        width: 100%;
+    }
+
+    .header-menu {
+        display: inline;
+        /* order: 1; */
+    }
+
+    .header-search {
+        position: absolute;
+        top: 0;
+        right: 0;
+        /* order: 3; */
+    }
+
+    .header-nav-item a {
+        text-align: left;
+    }
+
+    .header-subnav {
+        position: initial;
+        width: 100%;
+        background-color: #333;
+    }
+
+    .header-subnav .subnav-item a {
+        color: #fff;
+    }
+
+    .header-subnav .subnav-item:hover a {
+        color: #000;
+    }
+
+    #content .member-list {
+        display: block;
+        margin-top: unset;
+        margin-bottom: -12px;
+    }
+
+    #content .member-item {
+        margin-top: 30px;
+    }
+
+    #content .member-img {
+        width: 50%;
+    }
+
+    #content .member-name {
+        margin-bottom: 8px;
+    }
+
+    .places-list {
+        display: block;
+        margin-top: unset;
+    }
+
+    .places-item {
+        margin-top: 16px;
+        width: 100%;
+    }
+
+    .contact-info {
+        margin-bottom: 32px;
+    }
+
+    .contact-content {
+        display: block;
+    }
+
+    .contact-form-top {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-form-top>input {
+        margin-bottom: 8px;
+    }
+
+    .contact-form-bottom {
+        margin: unset;
+    }
+
+    .contact-btn {
+        position: initial;
+        width: unset;
+        margin-top: 16px;
+    }
+}
+
+/* Tablet and Mobile */
+@media (max-width: 63.9375em) {
+    .btn {
+        font-size: 18px;
+    }
+
+    .places-content .btn {
+        width: 100%;
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+
+    .contact-info {
+        line-height: 2;
+    }
+
+    .contact-btn {
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+
+    .socials-item i {
+        font-size: 32px;
+        margin: 0 6px;
+    }
+
+    .footer-cre {
+        margin-top: 20px;
+        font-size: 24px;
+    }
+}
